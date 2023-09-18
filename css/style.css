@@ -101,6 +101,7 @@ h6,
 
 .navbar-light .navbar-brand h1 {
     color: #FFFFFF;
+
 }
 
 .navbar-light .navbar-brand img {
@@ -539,7 +540,7 @@ h6,
     height:100%;
     left:1px;
     top:0;
-    border-right:1px solid #4777F5;
+    border-right:1px solid #5CC9DF;
     z-index:-1;
 }
 
@@ -551,7 +552,7 @@ h6,
     height:100px;
     left:1px;
     bottom:-105px;
-    border-right:1px dashed #4777F5;
+    border-right:1px dashed #5CC9DF;
     z-index:-1;
 }
 
@@ -565,8 +566,9 @@ h6,
     font-size:21px;
     font-weight:400;
     color:#fff;
-    background:#2124B1;
+    background: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     border-radius:5px;
+
 }
 
 .news-item {
@@ -591,8 +593,9 @@ h6,
 }
 
 .news-item:hover .news-content {
-    background:#4777F5;
+    background: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     color:#fff;
+
 }
 
 .news-item.right .news-content {
@@ -626,12 +629,12 @@ h6,
 }
 
 .news-item:hover .news-content:after {
-    border-left-color:#4777F5;
+    border-left-color:linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
 }
 
 .news-item.right:hover .news-content:after {
     border-left-color:transparent;
-    border-right-color:#4777F5;
+    border-right-color:linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
 }
 
 .news-item .news-content:before {
@@ -642,7 +645,7 @@ h6,
     height:20px;
     right:-55px;
     top:60px;
-    background:#4777F5;
+    background:linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     border:3px solid #fff;
     border-radius:50%;
     -webkit-transition:background .3s ease-out;
@@ -660,7 +663,7 @@ h6,
     height:80px;
     left:10px;
     text-align:center;
-    color:#4777F5;
+    color:linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     -webkit-transition:color .3s ease-out;
     transition:color .3s ease-out;
 }
@@ -686,6 +689,7 @@ h6,
 .news-content .news-title{
     font-size:24px;
     font-weight:300;
+
 }
 
 .news-content p{
@@ -729,7 +733,7 @@ h6,
     font-family:'FontAwesome';
     font-size:21px;
     line-height:21px;
-    color:#4777F5;
+    color:linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     vertical-align:middle;
     -webkit-transition:padding .3s ease-out;
     transition:padding .3s ease-out;
@@ -782,7 +786,7 @@ h6,
     font-size:32px;
     line-height:80px;
     text-align:center;
-    color:#4777F5;
+    color:linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
     -webkit-transform:scale(0);
     transform:scale(0);
     opacity:0;
